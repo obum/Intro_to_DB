@@ -1,5 +1,5 @@
-create database alx_book_store;
-use alx_book_store;
+CREATE DATABASE IF NOT EXISTS  alx_book_store;
+USE alx_book_store;
 
 CREATE TABLE IF NOT EXISTS Customers (
 customer_id INT AUTO_INCREMENT PRIMARY KEY,
