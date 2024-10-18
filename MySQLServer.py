@@ -3,8 +3,8 @@ from getpass import getpass
 import mysql.connector as db_connector
 
 
-DB_NAME = 'alx_courses'
-create_database_query = 'CREATE DATABASE IF NOT EXISTS alx_courses;'
+DB_NAME = 'alx_book_store'
+create_database_query = 'CREATE DATABASE IF NOT EXISTS alx_book_store;'
 
 try:
     with db_connector.connect(
